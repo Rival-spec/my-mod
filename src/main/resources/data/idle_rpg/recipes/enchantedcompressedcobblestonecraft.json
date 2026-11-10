@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "idle_rpg:compressedcobblestone"
+    }
+  },
+  "result": {
+    "item": "idle_rpg:enchantedcompressedcobblestone",
+    "count": 1
+  }
+}

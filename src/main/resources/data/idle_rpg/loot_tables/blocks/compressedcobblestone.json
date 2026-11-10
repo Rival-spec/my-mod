@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "idle_rpg:blocks/compressedcobblestone",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "idle_rpg:compressedcobblestone"
+        }
+      ]
+    }
+  ]
+}

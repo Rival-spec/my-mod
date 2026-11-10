@@ -1,0 +1,36 @@
+{
+  "_fv": 89,
+  "_type": "tool",
+  "definition": {
+    "toolType": "MultiTool",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "minecraft:stick",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "палка настроек",
+    "rarity": "EPIC",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      "CUSTOM:Idlerpg"
+    ],
+    "efficiency": 255.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 255.0,
+    "usageCount": 0,
+    "glowCondition": {
+      "fixedValue": true
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "attributeModifiers": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "idle_rpg:block/compressed_cobblestone",
+    "up": "idle_rpg:block/compressed_cobblestone",
+    "north": "idle_rpg:block/compressed_cobblestone",
+    "east": "idle_rpg:block/compressed_cobblestone",
+    "south": "idle_rpg:block/compressed_cobblestone",
+    "west": "idle_rpg:block/compressed_cobblestone",
+    "particle": "idle_rpg:block/compressed_cobblestone"
+  },
+  "render_type": "solid"
+}

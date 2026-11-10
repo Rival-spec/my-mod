@@ -1,0 +1,21 @@
+{
+  "_fv": 89,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Благословление визера",
+    "supportedSlots": "any",
+    "weight": 10,
+    "anvilCost": 1,
+    "maxLevel": 1,
+    "damageModifier": 0,
+    "incompatibleEnchantments": [],
+    "supportedItems": [
+      "TAG:minecraft:enchantable/armor"
+    ],
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "canGenerateInLootTables": false,
+    "canVillagerTrade": false,
+    "effectsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"enchantment_effects_start\" deletable=\"false\" x=\"42\" y=\"76\"></block></xml>"
+  }
+}

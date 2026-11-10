@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "idle_rpg:block/blok_rudy_drevnikh",
+    "up": "idle_rpg:block/blok_rudy_drevnikh",
+    "north": "idle_rpg:block/blok_rudy_drevnikh",
+    "east": "idle_rpg:block/blok_rudy_drevnikh",
+    "south": "idle_rpg:block/blok_rudy_drevnikh",
+    "west": "idle_rpg:block/blok_rudy_drevnikh",
+    "particle": "minecraft:block/glowstone"
+  },
+  "render_type": "solid"
+}

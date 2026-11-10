@@ -1,0 +1,1016 @@
+{
+  "mod_elements": [
+    {
+      "name": "Cobblestonegenerator",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestonegenerator",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/idle_rpg/models/item/cobblestonegenerator.json",
+          "src/main/java/net/mcreator/idlerpg/block/CobblestonegeneratorBlock.java",
+          "src/main/resources/assets/idle_rpg/blockstates/cobblestonegenerator.json",
+          "src/main/resources/data/idle_rpg/loot_tables/blocks/cobblestonegenerator.json",
+          "src/main/resources/assets/idle_rpg/models/block/cobblestonegenerator.json"
+        ]
+      },
+      "path": "~/mining generators and mining exp"
+    },
+    {
+      "name": "Expcobblestone",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "expcobblestone",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/idlerpg/procedures/ExpcobblestoneProcedure.java"
+        ]
+      },
+      "path": "~/mining generators and mining exp"
+    },
+    {
+      "name": "Exptab",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exptab",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/idlerpg/procedures/ExptabProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Exptabingame",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exptabingame",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/idlerpg/client/screens/ExptabingameOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "Settingsstick",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "settingsstick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/idlerpg/item/SettingsstickItem.java",
+          "src/main/resources/assets/idle_rpg/models/item/settingsstick.json"
+        ]
+      }
+    },
+    {
+      "name": "Stonegenerator",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonegenerator",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/idlerpg/block/StonegeneratorBlock.java",
+          "src/main/resources/assets/idle_rpg/models/block/stonegenerator.json",
+          "src/main/resources/data/idle_rpg/loot_tables/blocks/stonegenerator.json",
+          "src/main/resources/assets/idle_rpg/models/item/stonegenerator.json",
+          "src/main/resources/assets/idle_rpg/blockstates/stonegenerator.json"
+        ]
+      },
+      "path": "~/mining generators and mining exp"
+    },
+    {
+      "name": "Expstone",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "expstone",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/idlerpg/procedures/ExpstoneProcedure.java"
+        ]
+      },
+      "path": "~/mining generators and mining exp"
+    },
+    {
+      "name": "Coalgenerator",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coalgenerator",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/idle_rpg/blockstates/coalgenerator.json",
+          "src/main/resources/assets/idle_rpg/models/item/coalgenerator.json",
+          "src/main/java/net/mcreator/idlerpg/block/CoalgeneratorBlock.java",
+          "src/main/resources/data/idle_rpg/loot_tables/blocks/coalgenerator.json",
+          "src/main/resources/assets/idle_rpg/models/block/coalgenerator.json"
+        ]
+      },
+      "path": "~/mining generators and mining exp"
+    },
+    {
+      "name": "Expcoal",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "expcoal",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/idlerpg/procedures/ExpcoalProcedure.java"
+        ]
+      },
+      "path": "~/mining generators and mining exp"
+    },
+    {
+      "name": "Irobgenerator",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "irobgenerator",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/idle_rpg/models/block/irobgenerator.json",
+          "src/main/resources/data/idle_rpg/loot_tables/blocks/irobgenerator.json",
+          "src/main/java/net/mcreator/idlerpg/block/IrobgeneratorBlock.java",
+          "src/main/resources/assets/idle_rpg/models/item/irobgenerator.json",
+          "src/main/resources/assets/idle_rpg/blockstates/irobgenerator.json"
+        ]
+      },
+      "path": "~/mining generators and mining exp"
+    },
+    {
+      "name": "Expiron",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "expiron",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/idlerpg/procedures/ExpironProcedure.java"
+        ]
+      },
+      "path": "~/mining generators and mining exp"
+    },
+    {
+      "name": "Goldgenerator",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldgenerator",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/idle_rpg/loot_tables/blocks/goldgenerator.json",
+          "src/main/java/net/mcreator/idlerpg/block/GoldgeneratorBlock.java",
+          "src/main/resources/assets/idle_rpg/models/item/goldgenerator.json",
+          "src/main/resources/assets/idle_rpg/blockstates/goldgenerator.json",
+          "src/main/resources/assets/idle_rpg/models/block/goldgenerator.json"
+        ]
+      },
+      "path": "~/mining generators and mining exp"
+    },
+    {
+      "name": "Expgold",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "expgold",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/idlerpg/procedures/ExpgoldProcedure.java"
+        ]
+      },
+      "path": "~/mining generators and mining exp"
+    },
+    {
+      "name": "Lapisgenerator",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapisgenerator",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/idle_rpg/models/item/lapisgenerator.json",
+          "src/main/resources/assets/idle_rpg/models/block/lapisgenerator.json",
+          "src/main/resources/data/idle_rpg/loot_tables/blocks/lapisgenerator.json",
+          "src/main/java/net/mcreator/idlerpg/block/LapisgeneratorBlock.java",
+          "src/main/resources/assets/idle_rpg/blockstates/lapisgenerator.json"
+        ]
+      },
+      "path": "~/mining generators and mining exp"
+    },
+    {
+      "name": "Explapis",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explapis",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/idlerpg/procedures/ExplapisProcedure.java"
+        ]
+      },
+      "path": "~/mining generators and mining exp"
+    },
+    {
+      "name": "Redstonegenerator",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstonegenerator",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/idle_rpg/models/block/redstonegenerator.json",
+          "src/main/resources/assets/idle_rpg/models/item/redstonegenerator.json",
+          "src/main/java/net/mcreator/idlerpg/block/RedstonegeneratorBlock.java",
+          "src/main/resources/assets/idle_rpg/blockstates/redstonegenerator.json",
+          "src/main/resources/data/idle_rpg/loot_tables/blocks/redstonegenerator.json"
+        ]
+      },
+      "path": "~/mining generators and mining exp"
+    },
+    {
+      "name": "Expredstone",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "expredstone",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/idlerpg/procedures/ExpredstoneProcedure.java"
+        ]
+      },
+      "path": "~/mining generators and mining exp"
+    },
+    {
+      "name": "Emeraldgenerator",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldgenerator",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/idle_rpg/loot_tables/blocks/emeraldgenerator.json",
+          "src/main/resources/assets/idle_rpg/models/item/emeraldgenerator.json",
+          "src/main/resources/assets/idle_rpg/blockstates/emeraldgenerator.json",
+          "src/main/resources/assets/idle_rpg/models/block/emeraldgenerator.json",
+          "src/main/java/net/mcreator/idlerpg/block/EmeraldgeneratorBlock.java"
+        ]
+      },
+      "path": "~/mining generators and mining exp"
+    },
+    {
+      "name": "Expemerald",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "expemerald",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/idlerpg/procedures/ExpemeraldProcedure.java"
+        ]
+      },
+      "path": "~/mining generators and mining exp"
+    },
+    {
+      "name": "Diamondgenerator",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamondgenerator",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/idlerpg/block/DiamondgeneratorBlock.java",
+          "src/main/resources/assets/idle_rpg/models/block/diamondgenerator.json",
+          "src/main/resources/data/idle_rpg/loot_tables/blocks/diamondgenerator.json",
+          "src/main/resources/assets/idle_rpg/models/item/diamondgenerator.json",
+          "src/main/resources/assets/idle_rpg/blockstates/diamondgenerator.json"
+        ]
+      },
+      "path": "~/mining generators and mining exp"
+    },
+    {
+      "name": "Expdiamond",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "expdiamond",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/idlerpg/procedures/ExpdiamondProcedure.java"
+        ]
+      },
+      "path": "~/mining generators and mining exp"
+    },
+    {
+      "name": "Netheritegenerator",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheritegenerator",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/idlerpg/block/NetheritegeneratorBlock.java",
+          "src/main/resources/assets/idle_rpg/blockstates/netheritegenerator.json",
+          "src/main/resources/assets/idle_rpg/models/item/netheritegenerator.json",
+          "src/main/resources/assets/idle_rpg/models/block/netheritegenerator.json",
+          "src/main/resources/data/idle_rpg/loot_tables/blocks/netheritegenerator.json"
+        ]
+      },
+      "path": "~/mining generators and mining exp"
+    },
+    {
+      "name": "Expnetherite",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "expnetherite",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/idlerpg/procedures/ExpnetheriteProcedure.java"
+        ]
+      },
+      "path": "~/mining generators and mining exp"
+    },
+    {
+      "name": "Idlerpg",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "idlerpg",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Compressedcobblestone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressedcobblestone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/idle_rpg/loot_tables/blocks/compressedcobblestone.json",
+          "src/main/resources/assets/idle_rpg/models/block/compressedcobblestone.json",
+          "src/main/java/net/mcreator/idlerpg/block/CompressedcobblestoneBlock.java",
+          "src/main/resources/assets/idle_rpg/models/item/compressedcobblestone.json",
+          "src/main/resources/assets/idle_rpg/blockstates/compressedcobblestone.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "Compressedcobblestonerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressedcobblestonerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/idle_rpg/recipes/compressedcobblestonerecipe.json",
+          "src/main/resources/data/idle_rpg/advancements/recipes/compressedcobblestonerecipe.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Enchantedcompressedcobblestone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchantedcompressedcobblestone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/idlerpg/block/EnchantedcompressedcobblestoneBlock.java",
+          "src/main/resources/assets/idle_rpg/models/item/enchantedcompressedcobblestone.json",
+          "src/main/resources/assets/idle_rpg/blockstates/enchantedcompressedcobblestone.json",
+          "src/main/resources/assets/idle_rpg/models/block/enchantedcompressedcobblestone.json",
+          "src/main/resources/data/idle_rpg/loot_tables/blocks/enchantedcompressedcobblestone.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "Enchantedcompressedcobblestonecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchantedcompressedcobblestonecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/idle_rpg/recipes/enchantedcompressedcobblestonecraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Basicpickaxewood",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basicpickaxewood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/idle_rpg/models/item/basicpickaxewood.json",
+          "src/main/java/net/mcreator/idlerpg/item/BasicpickaxewoodItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Swordcustom1",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swordcustom_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/idle_rpg/models/item/swordcustom_1.json",
+          "src/main/java/net/mcreator/idlerpg/item/Swordcustom1Item.java"
+        ]
+      }
+    },
+    {
+      "name": "Swordcustom1PriUdariePoSushchnostiPriedmietom",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swordcustom_1_pri_udarie_po_sushchnosti_priedmietom",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/idlerpg/procedures/Swordcustom1PriUdariePoSushchnostiPriedmietomProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Cobblestoneminion",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestoneminion",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/idle_rpg/models/item/cobblestoneminion_spawn_egg.json",
+          "src/main/java/net/mcreator/idlerpg/entity/CobblestoneminionEntity.java",
+          "src/main/java/net/mcreator/idlerpg/client/renderer/CobblestoneminionRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "MinioncobblestoneTier1ingame",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minioncobblestone_tier_1ingame",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/idlerpg/client/gui/MinioncobblestoneTier1ingameScreen.java",
+          "src/main/java/net/mcreator/idlerpg/world/inventory/MinioncobblestoneTier1ingameMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Survivabilitystats",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "survivabilitystats",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/idlerpg/procedures/SurvivabilitystatsProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Survivability",
+      "type": "attribute",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "survivability",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/attributes"
+    },
+    {
+      "name": "Survivabilitychangetomaxhp",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "survivabilitychangetomaxhp",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/idlerpg/procedures/SurvivabilitychangetomaxhpProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Expbottle1x",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "expbottle_1x",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/idlerpg/item/Expbottle1xItem.java",
+          "src/main/resources/assets/idle_rpg/models/item/expbottle_1x.json"
+        ]
+      }
+    },
+    {
+      "name": "Expbottle1xPriZaviershieniiIspolzovaniia",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "expbottle_1x_pri_zaviershienii_ispolzovaniia",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/idlerpg/procedures/Expbottle1xPriZaviershieniiIspolzovaniiaProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Attackpower",
+      "type": "attribute",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "attackpower",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/attributes"
+    },
+    {
+      "name": "Critchance",
+      "type": "attribute",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "critchance",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/attributes"
+    },
+    {
+      "name": "Swordcustom1DopolnitielnaiaInformatsiia",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swordcustom_1_dopolnitielnaia_informatsiia",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/idlerpg/procedures/Swordcustom1DopolnitielnaiaInformatsiiaProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Blockrudydrevnikh",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockrudydrevnikh",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/idle_rpg/loot_tables/blocks/blockrudydrevnikh.json",
+          "src/main/java/net/mcreator/idlerpg/block/BlockrudydrevnikhBlock.java",
+          "src/main/resources/assets/idle_rpg/models/item/blockrudydrevnikh.json",
+          "src/main/resources/assets/idle_rpg/blockstates/blockrudydrevnikh.json",
+          "src/main/resources/assets/idle_rpg/models/block/blockrudydrevnikh.json"
+        ]
+      },
+      "path": "~/ore_block"
+    },
+    {
+      "name": "Blagoslovleniewithera",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blagoslovleniewithera",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/idlerpg/enchantment/BlagoslovleniewitheraEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "Blagoslovleniewitheraeffect",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blagoslovleniewitheraeffect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/idlerpg/procedures/BlagoslovleniewitheraeffectProcedure.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "mining_experience",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "survivability",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "10.0"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~Blockrudydrevnikh@CUSTOM:Blockrudydrevnikh",
+      "~Enchantedcompressedcobblestone@CUSTOM:Enchantedcompressedcobblestone",
+      "~Compressedcobblestone@CUSTOM:Compressedcobblestone",
+      "~Diamondgenerator@CUSTOM:Diamondgenerator",
+      "~Lapisgenerator@CUSTOM:Lapisgenerator",
+      "~Coalgenerator@CUSTOM:Coalgenerator",
+      "~Emeraldgenerator@CUSTOM:Emeraldgenerator",
+      "~Goldgenerator@CUSTOM:Goldgenerator",
+      "~Stonegenerator@CUSTOM:Stonegenerator",
+      "~Netheritegenerator@CUSTOM:Netheritegenerator",
+      "~Redstonegenerator@CUSTOM:Redstonegenerator",
+      "~Irobgenerator@CUSTOM:Irobgenerator",
+      "~Cobblestonegenerator@CUSTOM:Cobblestonegenerator"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~Blockrudydrevnikh@CUSTOM:Blockrudydrevnikh",
+      "~Coalgenerator@CUSTOM:Coalgenerator",
+      "~Irobgenerator@CUSTOM:Irobgenerator"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~Basicpickaxewood@CUSTOM:Basicpickaxewood",
+      "~Settingsstick@CUSTOM:Settingsstick"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~Settingsstick@CUSTOM:Settingsstick"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~Settingsstick@CUSTOM:Settingsstick"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.idle_rpg.cobblestonegenerator": "булыжник",
+      "item.idle_rpg.settingsstick": "палка настроек",
+      "block.idle_rpg.stonegenerator": "Камень",
+      "block.idle_rpg.coalgenerator": "Угольная руда",
+      "block.idle_rpg.irobgenerator": "Железная руда",
+      "block.idle_rpg.goldgenerator": "Золотая руда",
+      "block.idle_rpg.lapisgenerator": "Лазуритовая руда",
+      "block.idle_rpg.redstonegenerator": "Редстоун руда",
+      "block.idle_rpg.emeraldgenerator": "изумрудная руда",
+      "block.idle_rpg.diamondgenerator": "Алмазная руда",
+      "block.idle_rpg.netheritegenerator": "незеритовая руда",
+      "item_group.idle_rpg.idlerpg": "Idlerpg",
+      "block.idle_rpg.compressedcobblestone": "Сжатый камень",
+      "block.idle_rpg.enchantedcompressedcobblestone": "Зачарованный булыжник",
+      "item.idle_rpg.basicpickaxewood": "Деревянная кирка",
+      "item.idle_rpg.swordcustom_1": "Кинжал пустыни",
+      "entity.idle_rpg.cobblestoneminion": "Миньон: Булыжник Tier 1",
+      "item.idle_rpg.cobblestoneminion_spawn_egg": "Миньон: Булыжник Tier 1 Spawn Egg",
+      "attribute.idle_rpg.survivability": "Survivability",
+      "item.idle_rpg.expbottle_1x": "Expbottle 1x",
+      "attribute.idle_rpg.attackpower": "Attackpower",
+      "attribute.idle_rpg.critchance": "Crit chance",
+      "block.idle_rpg.blockrudydrevnikh": "Руда древних",
+      "enchantment.idle_rpg.blagoslovleniewithera": "Благословление визера"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/idlerpg/init/IdleRpgModAttributes.java",
+      "src/main/java/net/mcreator/idlerpg/init/IdleRpgModEnchantments.java",
+      "src/main/java/net/mcreator/idlerpg/init/IdleRpgModScreens.java",
+      "src/main/java/net/mcreator/idlerpg/init/IdleRpgModMenus.java",
+      "src/main/java/net/mcreator/idlerpg/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/mcreator/idlerpg/init/IdleRpgModBlocks.java",
+      "src/main/java/net/mcreator/idlerpg/init/IdleRpgModItems.java",
+      "src/main/java/net/mcreator/idlerpg/init/IdleRpgModEntityRenderers.java",
+      "src/main/java/net/mcreator/idlerpg/init/IdleRpgModEntities.java",
+      "src/main/java/net/mcreator/idlerpg/IdleRpgMod.java",
+      "src/main/resources/META-INF/mods.toml",
+      "src/main/java/net/mcreator/idlerpg/init/IdleRpgModTabs.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/idlerpg/network/IdleRpgModVariables.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "mining generators and mining exp",
+        "children": []
+      },
+      {
+        "name": "crafts",
+        "children": []
+      },
+      {
+        "name": "blocks",
+        "children": []
+      },
+      {
+        "name": "attributes",
+        "children": []
+      },
+      {
+        "name": "ore_block",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "idle_rpg",
+    "modName": "idle rpg",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.idlerpg"
+  },
+  "mcreatorVersion": 202600233518
+}

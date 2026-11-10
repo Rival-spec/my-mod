@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "idle_rpg:blocks/blockrudydrevnikh",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "idle_rpg:blockrudydrevnikh",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

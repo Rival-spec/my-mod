@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "idle_rpg:netheritegenerator",
+    "idle_rpg:redstonegenerator",
+    "idle_rpg:diamondgenerator",
+    "idle_rpg:emeraldgenerator",
+    "idle_rpg:lapisgenerator",
+    "idle_rpg:cobblestonegenerator",
+    "idle_rpg:blockrudydrevnikh",
+    "idle_rpg:compressedcobblestone",
+    "idle_rpg:goldgenerator",
+    "idle_rpg:coalgenerator",
+    "idle_rpg:irobgenerator",
+    "idle_rpg:enchantedcompressedcobblestone",
+    "idle_rpg:stonegenerator"
+  ]
+}

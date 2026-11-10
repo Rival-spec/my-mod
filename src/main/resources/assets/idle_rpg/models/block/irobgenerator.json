@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/iron_ore",
+    "up": "minecraft:block/iron_ore",
+    "north": "minecraft:block/iron_ore",
+    "east": "minecraft:block/iron_ore",
+    "south": "minecraft:block/iron_ore",
+    "west": "minecraft:block/iron_ore",
+    "particle": "minecraft:block/iron_ore"
+  },
+  "render_type": "solid"
+}
