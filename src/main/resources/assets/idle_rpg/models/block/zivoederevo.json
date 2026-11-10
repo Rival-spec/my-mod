@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "idle_rpg:block/zivoe_derevo_verh",
+    "up": "idle_rpg:block/zivoe_derevo_verh",
+    "north": "idle_rpg:block/zivoe_derevo",
+    "east": "idle_rpg:block/zivoe_derevo",
+    "south": "idle_rpg:block/zivoe_derevo",
+    "west": "idle_rpg:block/zivoe_derevo",
+    "particle": "idle_rpg:block/zivoe_derevo_verh"
+  },
+  "render_type": "solid"
+}

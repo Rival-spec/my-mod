@@ -35,6 +35,9 @@ public class IdleRpgModTabs {
 				tabData.accept(IdleRpgModBlocks.NETHERITEGENERATOR.get().asItem());
 				tabData.accept(IdleRpgModItems.SWORDCUSTOM_1.get());
 				tabData.accept(IdleRpgModBlocks.BLOCKRUDYDREVNIKH.get().asItem());
+				tabData.accept(IdleRpgModItems.KINGALDREVNIH.get());
+				tabData.accept(IdleRpgModBlocks.TITANIUMORE.get().asItem());
+				tabData.accept(IdleRpgModBlocks.ZIVOEDEREVO.get().asItem());
 			}).build());
 
 	@SubscribeEvent

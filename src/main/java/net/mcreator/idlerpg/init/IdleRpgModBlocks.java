@@ -27,6 +27,8 @@ public class IdleRpgModBlocks {
 	public static final RegistryObject<Block> COMPRESSEDCOBBLESTONE;
 	public static final RegistryObject<Block> ENCHANTEDCOMPRESSEDCOBBLESTONE;
 	public static final RegistryObject<Block> BLOCKRUDYDREVNIKH;
+	public static final RegistryObject<Block> TITANIUMORE;
+	public static final RegistryObject<Block> ZIVOEDEREVO;
 	static {
 		COBBLESTONEGENERATOR = REGISTRY.register("cobblestonegenerator", CobblestonegeneratorBlock::new);
 		STONEGENERATOR = REGISTRY.register("stonegenerator", StonegeneratorBlock::new);
@@ -41,6 +43,8 @@ public class IdleRpgModBlocks {
 		COMPRESSEDCOBBLESTONE = REGISTRY.register("compressedcobblestone", CompressedcobblestoneBlock::new);
 		ENCHANTEDCOMPRESSEDCOBBLESTONE = REGISTRY.register("enchantedcompressedcobblestone", EnchantedcompressedcobblestoneBlock::new);
 		BLOCKRUDYDREVNIKH = REGISTRY.register("blockrudydrevnikh", BlockrudydrevnikhBlock::new);
+		TITANIUMORE = REGISTRY.register("titaniumore", TitaniumoreBlock::new);
+		ZIVOEDEREVO = REGISTRY.register("zivoederevo", ZivoederevoBlock::new);
 	}
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

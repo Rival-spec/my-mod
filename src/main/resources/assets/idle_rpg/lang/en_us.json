@@ -22,5 +22,8 @@
   "attribute.idle_rpg.attackpower": "Attackpower",
   "attribute.idle_rpg.critchance": "Crit chance",
   "block.idle_rpg.blockrudydrevnikh": "Руда древних",
-  "enchantment.idle_rpg.blagoslovleniewithera": "Благословление визера"
+  "enchantment.idle_rpg.blagoslovleniewithera": "Благословление визера",
+  "item.idle_rpg.kingaldrevnih": "Кмнжал древних",
+  "block.idle_rpg.titaniumore": "Titaniumore",
+  "block.idle_rpg.zivoederevo": "Zivoederevo"
 }

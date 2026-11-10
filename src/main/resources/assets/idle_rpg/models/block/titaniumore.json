@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "idle_rpg:block/titanium_ore",
+    "up": "idle_rpg:block/titanium_ore",
+    "north": "idle_rpg:block/titanium_ore",
+    "east": "idle_rpg:block/titanium_ore",
+    "south": "idle_rpg:block/titanium_ore",
+    "west": "idle_rpg:block/titanium_ore",
+    "particle": "idle_rpg:block/titanium_ore"
+  },
+  "render_type": "solid"
+}

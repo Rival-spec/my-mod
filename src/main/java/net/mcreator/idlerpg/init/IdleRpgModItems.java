@@ -15,6 +15,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.idlerpg.item.Swordcustom1Item;
 import net.mcreator.idlerpg.item.SettingsstickItem;
+import net.mcreator.idlerpg.item.KingaldrevnihItem;
 import net.mcreator.idlerpg.item.Expbottle1xItem;
 import net.mcreator.idlerpg.item.BasicpickaxewoodItem;
 import net.mcreator.idlerpg.IdleRpgMod;
@@ -39,6 +40,9 @@ public class IdleRpgModItems {
 	public static final RegistryObject<Item> COBBLESTONEMINION_SPAWN_EGG;
 	public static final RegistryObject<Item> EXPBOTTLE_1X;
 	public static final RegistryObject<Item> BLOCKRUDYDREVNIKH;
+	public static final RegistryObject<Item> KINGALDREVNIH;
+	public static final RegistryObject<Item> TITANIUMORE;
+	public static final RegistryObject<Item> ZIVOEDEREVO;
 	static {
 		COBBLESTONEGENERATOR = block(IdleRpgModBlocks.COBBLESTONEGENERATOR);
 		SETTINGSSTICK = REGISTRY.register("settingsstick", SettingsstickItem::new);
@@ -58,6 +62,9 @@ public class IdleRpgModItems {
 		COBBLESTONEMINION_SPAWN_EGG = REGISTRY.register("cobblestoneminion_spawn_egg", () -> new ForgeSpawnEggItem(IdleRpgModEntities.COBBLESTONEMINION, -6710887, -13421773, new Item.Properties()));
 		EXPBOTTLE_1X = REGISTRY.register("expbottle_1x", Expbottle1xItem::new);
 		BLOCKRUDYDREVNIKH = block(IdleRpgModBlocks.BLOCKRUDYDREVNIKH, new Item.Properties().rarity(Rarity.UNCOMMON));
+		KINGALDREVNIH = REGISTRY.register("kingaldrevnih", KingaldrevnihItem::new);
+		TITANIUMORE = block(IdleRpgModBlocks.TITANIUMORE);
+		ZIVOEDEREVO = block(IdleRpgModBlocks.ZIVOEDEREVO);
 	}
 
 	// Start of user code block custom items

@@ -862,18 +862,54 @@
       "locked_code": false,
       "registry_name": "blagoslovleniewitheraeffect",
       "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ],
+        "dependencies": [],
         "files": [
           "src/main/java/net/mcreator/idlerpg/procedures/BlagoslovleniewitheraeffectProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Kingaldrevnih",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kingaldrevnih",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/idlerpg/item/KingaldrevnihItem.java",
+          "src/main/resources/assets/idle_rpg/models/item/kingaldrevnih.json"
+        ]
+      }
+    },
+    {
+      "name": "Titaniumore",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titaniumore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/idle_rpg/blockstates/titaniumore.json",
+          "src/main/resources/assets/idle_rpg/models/block/titaniumore.json",
+          "src/main/java/net/mcreator/idlerpg/block/TitaniumoreBlock.java",
+          "src/main/resources/assets/idle_rpg/models/item/titaniumore.json",
+          "src/main/resources/data/idle_rpg/loot_tables/blocks/titaniumore.json"
+        ]
+      }
+    },
+    {
+      "name": "Zivoederevo",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zivoederevo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/idlerpg/block/ZivoederevoBlock.java",
+          "src/main/resources/assets/idle_rpg/models/block/zivoederevo.json",
+          "src/main/resources/assets/idle_rpg/models/item/zivoederevo.json",
+          "src/main/resources/assets/idle_rpg/blockstates/zivoederevo.json",
+          "src/main/resources/data/idle_rpg/loot_tables/blocks/zivoederevo.json"
         ]
       }
     }
@@ -951,7 +987,10 @@
       "attribute.idle_rpg.attackpower": "Attackpower",
       "attribute.idle_rpg.critchance": "Crit chance",
       "block.idle_rpg.blockrudydrevnikh": "Руда древних",
-      "enchantment.idle_rpg.blagoslovleniewithera": "Благословление визера"
+      "enchantment.idle_rpg.blagoslovleniewithera": "Благословление визера",
+      "item.idle_rpg.kingaldrevnih": "Кмнжал древних",
+      "block.idle_rpg.titaniumore": "Titaniumore",
+      "block.idle_rpg.zivoederevo": "Zivoederevo"
     }
   },
   "metadata": {

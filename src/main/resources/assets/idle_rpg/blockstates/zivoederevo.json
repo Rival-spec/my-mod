@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "idle_rpg:block/zivoederevo",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "idle_rpg:block/zivoederevo"
+    },
+    "axis=z": {
+      "model": "idle_rpg:block/zivoederevo",
+      "x": 90
+    }
+  }
+}

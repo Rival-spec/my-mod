@@ -22,7 +22,7 @@ import net.mcreator.idlerpg.IdleRpgMod;
 public class IdleRpgModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, IdleRpgMod.MODID);
 	public static final RegistryObject<EntityType<CobblestoneminionEntity>> COBBLESTONEMINION = register("cobblestoneminion", EntityType.Builder.<CobblestoneminionEntity>of(CobblestoneminionEntity::new, MobCategory.MONSTER)
-			.setShouldReceiveVelocityUpdates(true).setTrackingRange(0).setUpdateInterval(3).setCustomClientFactory(CobblestoneminionEntity::new).fireImmune().sized(0.6f, 1.95f));
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(0).setUpdateInterval(3).setCustomClientFactory(CobblestoneminionEntity::new).fireImmune().sized(0.5f, 2.05f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
